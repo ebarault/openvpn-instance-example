@@ -7,6 +7,7 @@
   vars:
     openvpn_domain: "{{ansible_domain}}"
     openvpn_pki_password: 29mTcV7zfMY394Ju6pVv2pFjzjhZBXGY
+    openvpn_dns: 169.254.169.253
     openvpn_clients:
         - ebarault
 
@@ -16,4 +17,5 @@
     vars:
       domain: "{{openvpn_domain}}"
       pki_password: "{{openvpn_pki_password}}"
+      dns: "{{openvpn_dns}}"
       clients: "{{openvpn_clients}}"
