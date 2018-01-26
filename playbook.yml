@@ -5,9 +5,10 @@
   become: yes
 
   vars:
-    openvpn_domain: "{{ansible_domain}}"
+    openvpn_domain: 52.47.178.92
     openvpn_pki_password: 29mTcV7zfMY394Ju6pVv2pFjzjhZBXGY
-    openvpn_dns: 169.254.169.253
+    # openvpn_dns: 169.254.169.253
+    openvpn_dns: 172.40.0.2
     openvpn_clients:
         - ebarault
 
