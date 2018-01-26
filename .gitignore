@@ -1,0 +1,15 @@
+roles
+openvpn
+openvpn-data
+clients_keys_udp
+clients_keys_tcp
+playbook.retry
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.env
+.ssh/
+.vim/
+.viminfo
+.vault
